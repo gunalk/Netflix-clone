@@ -31,9 +31,7 @@ const App = () => {
     <div className='app'>
    <BrowserRouter>
    {
-    !user? 
-    <Login/>
-    :
+    
     <Routes>
     
       <Route path="/" element={<Home/>}/>
